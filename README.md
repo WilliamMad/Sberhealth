@@ -65,5 +65,5 @@
 </p>
 
 <h2>
-  :crystal_ball: Всю сборку можно запустить самостоятельно https://jenkins.autotests.cloud/job/mipkasnow-QaGuru-Diploma-Project-UI/ (необходимо предварительно  зарегистрироваться)
+  :crystal_ball: Всю сборку можно запустить самостоятельно https://jenkins.autotests.cloud/job/Sberhealth_test/ (необходимо предварительно  зарегистрироваться)
 </h2>
