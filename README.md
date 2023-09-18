@@ -58,6 +58,4 @@
 <p align="center">
 <img title="Allure отчет" src="images/Allure.PNG">
 </p>
-<p align="center">
-<img title="Allure отчет" src="images/Allure2.PNG">
-</p>
+
