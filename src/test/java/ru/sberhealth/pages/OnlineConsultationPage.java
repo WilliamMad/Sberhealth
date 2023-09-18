@@ -20,4 +20,8 @@ public class OnlineConsultationPage {
         blockWithDoctor.shouldHave(text(text));
     }
 
+    public void scrollTo () {
+        blockWithDoctor.scrollIntoView(false);
+    }
+
 }

@@ -43,6 +43,7 @@ public class SmokeTestsRemote extends BaseTestRemote {
         });
         step ("Вводим специализацию врача в окно 'Специализация' и нажимаем Enter", () -> {
             switchTo().window(1);
+            onlineConsultationPage.scrollTo();
             onlineConsultationPage.doctorSpecializationChoice(doctorSpec);
         });
         step ("Проверяем, что поиск выдает корректный результат в соотв. с заданной специализацией врача", () -> {

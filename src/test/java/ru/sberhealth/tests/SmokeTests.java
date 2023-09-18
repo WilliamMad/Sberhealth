@@ -15,7 +15,7 @@ public class SmokeTests extends BaseTest {
     OnlineConsultationPage onlineConsultationPage = new OnlineConsultationPage();
     AnalysisPage analysisPage = new AnalysisPage();
     CartPage cartPage = new CartPage();
-    String doctorSpec = "Гинеколог",
+    String doctorSpec = "Гастроэнтеролог",
            welcomeText = "Войдите, чтобы продолжить";
 
 
@@ -40,6 +40,7 @@ public class SmokeTests extends BaseTest {
         });
         step ("Вводим специализацию врача в окно 'Специализация' и нажимаем Enter", () -> {
             switchTo().window(1);
+            onlineConsultationPage.scrollTo();
             onlineConsultationPage.doctorSpecializationChoice(doctorSpec);
         });
         step ("Проверяем, что поиск выдает корректный результат в соотв. с заданной специализацией врача", () -> {
