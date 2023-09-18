@@ -21,3 +21,16 @@
 <a href="https://github.com/allure-framework/allure2"><img src="images/Allure_Report.svg" width="50" height="50"  alt="Allure" title="Allure"/></a>
 <a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins" title="Jenkins"/></a>
 </p>
+
+В данном проекте автотесты написаны на <code>Java</code> с использованием <code>Selenide</code> для UI-тестов
+>
+> <code>Selenoid</code> выполняет запуск браузеров в контейнерах <code>Docker</code>.
+>
+> <code>Allure Report</code> формирует отчет о запуске тестов.
+>
+> Для автоматизированной сборки проекта используется <code>Gradle</code>.
+>
+> В качестве библиотеки для модульного тестирования используется <code>JUnit 5</code>.
+>
+> <code>Jenkins</code> выполняет запуск тестов.
+> После завершения прогона отправляются уведомления с помощью бота в <code>Telegram</code>.
