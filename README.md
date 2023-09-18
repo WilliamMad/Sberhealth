@@ -76,5 +76,6 @@
 
 <h2>
   :crystal_ball: Всю сборку можно запустить самостоятельно https://jenkins.autotests.cloud/job/Sberhealth_test/ (необходимо предварительно  зарегистрироваться)
+  
   Отчет в телеграм придет в чат https://t.me/+wT8YRNuSitsyMDUy
 </h2>
