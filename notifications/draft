@@ -1,0 +1,15 @@
+https://api.telegram.org/bot6033314964:AAEDWX2fZSNYUIU2FrbP4Ll0vJFtecd4Rw0/getUpdates
+
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001982423859", "text": "This is a test from curl", "disable_notification": true}' https://api.telegram.org/bot6033314964:AAEDWX2fZSNYUIU2FrbP4Ll0vJFtecd4Rw0/sendMessage
+
+$headers = @{"Content-Type" = "application/json"}
+$body = @{
+    chat_id = "-1001982423859"
+    text = "This is a test from curl"
+    disable_notification = $true
+} | ConvertTo-Json
+
+Invoke-WebRequest -Uri "https://api.telegram.org/bot6033314964:AAEDWX2fZSNYUIU2FrbP4Ll0vJFtecd4Rw0/sendMessage" -Method POST -Headers $headers -Body $body
+
+java "-DconfigFile=notifications/telegram.json" -jar notifications/allure-notifications-4.2.1.jar
+
