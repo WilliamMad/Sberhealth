@@ -40,3 +40,24 @@
 - Проверка работоспособности ссылок на странице (например ссылка логина в ЛК)
 - Проверка выдачи результатов врачей при заданном фильтре
 - Проверка добавления анализа в корзину
+
+- ## <img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins" title="Jenkins"/></a> Сборка в Jenkins с параметрами
+>
+> В сборке присутствуют настраиваемые параметры.
+>
+> Например размер запускаемого браузера. Сами тесты запускаются удаленно с помощью <code>Selenoid</code>
+<p align="center">
+<img title="Сборка в Jenkins с параметрами" src="images/Jenkins.PNG">
+</p>
+
+## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure_Report" title="Allure_Report" title="Allure_Report"/></a> Allure отчет
+>
+> Allure формирует подробный отчет о прогоне тестов.
+>
+> Отчеты формируются по категориям, в конце приложен скриншот, видео запись прогона теста и логи.
+<p align="center">
+<img title="Allure отчет" src="images/Allure.PNG">
+</p>
+<p align="center">
+<img title="Allure отчет" src="images/Allure2.PNG">
+</p>
