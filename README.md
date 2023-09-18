@@ -6,6 +6,7 @@
 - [Примеры UI тестов](#pager-Примеры-UI-тестов)
 - [Сборка в Jenkins с параметрами](#-Сборка-в-Jenkins-с-параметрами)
 - [Allure отчет](#-Allure-отчет)
+- [Отчет в Telegram с помощью бота](#-Отчет-в-Telegram-с-помощью-бота)
 - [Видео прохождения тестов на Selenoid](#film_projector-Видео-прохождения-тестов-на-Selenoid)
 
 ## :earth_africa: Технологии и инструменты
@@ -32,6 +33,7 @@
 > В качестве библиотеки для модульного тестирования используется <code>JUnit 5</code>.
 >
 > <code>Jenkins</code> выполняет запуск тестов.
+> После завершения прогона отправляются уведомления с помощью бота в <code>Telegram</code>. 
 >
 ## :pager: Примеры UI тестов
 - Проверка работоспособности ссылок на странице (например ссылка логина в ЛК)
@@ -56,6 +58,14 @@
 <img title="Allure отчет" src="images/Allure.png"> 
 </p>
 
+## <img width="4%" title="Telegram" src="images/Telegram.svg"> Отчет в Telegram с помощью бота
+>
+> После прогона всех тестов в <code>Telegram</code> чат автоматически приходит сообщение с полной информацией о прогоне и ссылкой на <code>Allure</code>
+>
+<p>
+<img title="Отчет в Telegram с помощью бота" src="images/tg_notif.png">
+</p>
+
 ## :film_projector: Видео прохождения тестов на Selenoid
 >
 > <code>Selenoid</code> пишет видео прогона каждого теста и видео прикладывается в отчет <code>Allure</code>
@@ -66,4 +76,5 @@
 
 <h2>
   :crystal_ball: Всю сборку можно запустить самостоятельно https://jenkins.autotests.cloud/job/Sberhealth_test/ (необходимо предварительно  зарегистрироваться)
+  Отчет в телеграм придет в чат https://t.me/+wT8YRNuSitsyMDUy
 </h2>
