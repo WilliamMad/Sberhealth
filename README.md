@@ -56,6 +56,6 @@
 >
 > Отчеты формируются по категориям, в конце приложен скриншот, видео запись прогона теста и логи.
 <p align="center">
-<img title="Allure отчет" src="images/images/Allure.png"> 
+<img title="Allure отчет" src="images/Allure.png"> 
 </p>
 
