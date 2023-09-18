@@ -41,7 +41,7 @@
 - Проверка выдачи результатов врачей при заданном фильтре
 - Проверка добавления анализа в корзину
 
-- ## <img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins" title="Jenkins"/></a> Сборка в Jenkins с параметрами
+## <img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins" title="Jenkins"/></a> Сборка в Jenkins с параметрами
 >
 > В сборке присутствуют настраиваемые параметры.
 >
