@@ -8,10 +8,11 @@ import static com.codeborne.selenide.Selenide.$;
 public class OnlineConsultationPage {
 
     SelenideElement specialization = $("[class=Input__iaxpyys]");
-    SelenideElement blockWithDoctor = $("[data-testid=catalog-doctor-wrapper-2376407]");
+    SelenideElement blockWithDoctor = $("[data-testid*='catalog-doctor-wrapper']");
 
 
     public void doctorSpecializationChoice(String text) {
+        specialization.click();
         specialization.setValue(text).pressEnter();
     }
 
